@@ -79,7 +79,7 @@ h1 {
 @media (max-width: 767px) {
   /*MAIN CONTENT*/
   div#main-content.container {
-    width: 90%;
+    width: 85%;
   }
   /*END MAIN CONTENT*/
 }
