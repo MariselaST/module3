@@ -17,9 +17,6 @@ h1 {
 }
 /* HEADER */
 
-div#bs-example-navbar-collapse-1 {
-  background-color: #4a4144;
-}
 #header-nav {
   background-color: #383234;
   opacity: 0.9;
@@ -36,15 +33,7 @@ div#bs-example-navbar-collapse-1 {
   text-decoration: none;
   color: #fff;
 }
-.navbar-collapse {
-  padding-right: 15px;
-  padding-left: 15px;
-  overflow-x: visible;
-  -webkit-overflow-scrolling: touch;
-  border-top: 2px solid transparent;
-  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
-}
+
 .navbar-collapse ul#nav-list {
   padding-right: 0px;
   padding-left: 0px;
@@ -95,6 +84,18 @@ ul#nav-list li {
   /*MAIN CONTENT*/
   div#main-content.container {
     width: 80%;
+  }
+  div#bs-example-navbar-collapse-1 {
+    background-color: #4a4144;
+  }
+  .navbar-collapse {
+    padding-right: 15px;
+    padding-left: 15px;
+    overflow-x: visible;
+    -webkit-overflow-scrolling: touch;
+    border-top: 2px solid transparent;
+    -webkit-box-shadow: inset 0 2px 0 rgba(255, 255, 255, 0.1);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
   }
   /*END MAIN CONTENT*/
 }
