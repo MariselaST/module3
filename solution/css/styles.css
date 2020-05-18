@@ -7,14 +7,7 @@ body {
   color: #fff;
   background-color: #df77ed;
 }
-::-webkit-scrollbar {
-  -webkit-appearance: none;
-  width: 7px;
-}
-::-webkit-scrollbar-thumb {
-  border-radius: 4px;
-  background-color: rgba(0, 0, 0, 0.5);
-}
+
 h1,
 h2 {
   font-weight: 700;
@@ -86,7 +79,7 @@ h1 {
 @media (max-width: 767px) {
   /*MAIN CONTENT*/
   div#main-content.container {
-    width: 85%;
+    width: 80%;
   }
   /*END MAIN CONTENT*/
 }
