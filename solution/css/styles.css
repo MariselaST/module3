@@ -1,0 +1,85 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #fc0366;
+}
+
+h1,
+h2 {
+  font-weight: 700;
+}
+h1 {
+  margin-bottom: 1.5em;
+}
+/* HEADER */
+
+#header-nav {
+  background-color: #383234;
+  opacity: 0.9;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-header .navbar-brand {
+  color: #fff;
+  font-size: 1.5em;
+}
+
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:hover {
+  text-decoration: none;
+  color: #fff;
+}
+.navbar-collapse ul#nav-list {
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#nav-list {
+  margin-top: 10px;
+}
+.navbar-nav li > a {
+  line-height: 27px;
+}
+#nav-list a {
+  color: #e7e7e7;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #e7e7e7;
+  color: #fc0366;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+/*END HEADER*/
+
+/*MAIN CONTENT*/
+
+.food-box {
+  height: 700px;
+  background-color: #80797b;
+  opacity: 0.9;
+  margin: 0 auto 30px;
+  overflow: scroll;
+}
+
+.food-box p {
+  padding: 15px;
+}
+
+/*END MAIN CONTENT*/
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 767px) {
+  /*MAIN CONTENT*/
+  div#main-content.container {
+    width: 90%;
+  }
+  /*END MAIN CONTENT*/
+}
